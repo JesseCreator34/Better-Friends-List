@@ -10,5 +10,9 @@ Current features:
 The next things that will be added to the mod are:
 - Searching trough your friends list
 
+Better Friends List is free to download on Modrinth for all latest Minecraft versions!
+
+Visit the website here: https://modrinth.com/project/rVhArZFx
+
 This mod is still in Beta
 When you've enabled Iris shaders and have not joined a world or server yet, the 3d skin preview will show inside out and bugged, this is an Iris shaders bug and will hopefully be fixed in the future.
