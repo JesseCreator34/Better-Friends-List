@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "bfr",
+	"version": "${version}",
+	"name": "Better Friends List",
+	"description": "Make the friends list yours by having more options and control.",
+	"authors": [
+		"Astyll"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/rVhArZFx"
+	},
+	"license": "ARR",
+	"icon": "assets/bfr/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.smm.BetterFriendsList"
+		]
+	},
+	"mixins": [
+		"bfr.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
