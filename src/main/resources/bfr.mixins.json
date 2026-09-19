@@ -1,17 +1,18 @@
 {
-	"required": true,
-	"package": "com.smm.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-      "FriendsItemMixin",
-      "FriendsListMixin",
-      "AbstractFriendsEntryAccessor",
-      "FriendsOverlayScreenMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.smm.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "FriendsItemMixin",
+    "FriendsListMixin",
+    "AbstractFriendsEntryAccessor",
+    "FriendsOverlayScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }
