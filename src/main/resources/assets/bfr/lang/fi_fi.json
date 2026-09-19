@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Parempi kaverilista",
+  "modmenu.descriptionTranslation.betterfriendslist": "Parantaa kaverilistaa lempinimillä, suosikkien kiinnityksellä ja 3D-pelaajaulkoasun esikatseluruudulla.",
+  "betterfriendslist.screen.nickname.title": "Aseta kaverin lempinimi",
+  "betterfriendslist.screen.nickname.input_hint": "Lempinimi",
+  "betterfriendslist.tooltip.toggle_favorite": "Vaihda suosikkia",
+  "betterfriendslist.tooltip.set_nickname": "Aseta lempinimi"
+}

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "قائمة أصدقاء أفضل",
+  "modmenu.descriptionTranslation.betterfriendslist": "تحسين واجهة الأصدقاء بإضافة أسماء مستعارة، تثبيت المفضلين، ولوحة معاينة ثلاثية الأبعاد لمظهر اللاعب.",
+  "betterfriendslist.screen.nickname.title": "تعيين لقب الصديق",
+  "betterfriendslist.screen.nickname.input_hint": "اللقب",
+  "betterfriendslist.tooltip.toggle_favorite": "تبديل المفضلة",
+  "betterfriendslist.tooltip.set_nickname": "تعيين لقب"
+}

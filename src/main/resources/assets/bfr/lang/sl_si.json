@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Boljši seznam prijateljev",
+  "modmenu.descriptionTranslation.betterfriendslist": "Izboljša meni prijateljev z vzdevki, pripenjanjem priljubljenih in 3D predogledom preobleke igralca.",
+  "betterfriendslist.screen.nickname.title": "Nastavi vzdevek prijatelja",
+  "betterfriendslist.screen.nickname.input_hint": "Vzdevek",
+  "betterfriendslist.tooltip.toggle_favorite": "Preklopi priljubljeno",
+  "betterfriendslist.tooltip.set_nickname": "Nastavi vzdevek"
+}

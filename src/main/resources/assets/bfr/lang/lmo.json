@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Mei Lista de Amis",
+  "modmenu.descriptionTranslation.betterfriendslist": "Miora el menu di amis cont i soranomm, el fissagg di preferii e un pannell de anteprizima 3D de la pell del giugador.",
+  "betterfriendslist.screen.nickname.title": "Met el Soranomm de l'Amis",
+  "betterfriendslist.screen.nickname.input_hint": "Soranomm",
+  "betterfriendslist.tooltip.toggle_favorite": "Scambia Preferii",
+  "betterfriendslist.tooltip.set_nickname": "Met el Soranomm"
+}

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Better Shipmates Roster",
+  "modmenu.descriptionTranslation.betterfriendslist": "Spruces up yer roster with scallywag monikers, pinnin' favorite mates, and a 3D rigging preview of yer buckos.",
+  "betterfriendslist.screen.nickname.title": "Name Yer Shipmate",
+  "betterfriendslist.screen.nickname.input_hint": "Moniker",
+  "betterfriendslist.tooltip.toggle_favorite": "Mark as Treasured Mate",
+  "betterfriendslist.tooltip.set_nickname": "Carve Moniker"
+}

@@ -80,7 +80,7 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
                         }
                 )
                 .size(20, 20)
-                .tooltip(Tooltip.create(Component.literal("Toggle Favorite")))
+                .tooltip(Tooltip.create(Component.translatable("betterfriendslist.tooltip.toggle_favorite")))
                 .build();
 
         this.betterfriendslist$nicknameButton = PlainTextButton.builder(
@@ -94,7 +94,7 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
                         )
                 )
                 .size(20, 20)
-                .tooltip(Tooltip.create(Component.literal("Set Nickname")))
+                .tooltip(Tooltip.create(Component.translatable("betterfriendslist.tooltip.set_nickname")))
                 .build();
 
         this.addChild(this.betterfriendslist$favoriteButton);
@@ -103,18 +103,19 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
 
     @Override
     public boolean mouseClicked(MouseButtonEvent event, boolean doubleClick) {
-
         if (!this.betterfriendslist$isPlayerDataValid()) {
             return false;
         }
 
-        // Let echte knoppen eerst de click afhandelen.
-        // Reverse order is belangrijk omdat onze custom buttons
-        // achter de vanilla children aan de lijst zijn toegevoegd.
-        List<? extends GuiEventListener> children = this.children();
+        // Only handle clicks if mouse is within this container boundary
+        if (!this.isMouseOver(event.x(), event.y())) {
+            return false;
+        }
 
+        // Allow child buttons to handle clicks in reverse order
+        List<? extends GuiEventListener> children = this.children();
         for (int i = children.size() - 1; i >= 0; i--) {
-            net.minecraft.client.gui.components.events.GuiEventListener child = children.get(i);
+            GuiEventListener child = children.get(i);
 
             if (!child.isMouseOver(event.x(), event.y())) {
                 continue;
@@ -128,14 +129,12 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
                         this.setDragging(true);
                     }
                 }
-
                 return true;
             }
         }
 
-        // Geen child-button heeft de click afgehandeld:
-        // de hele friend-entry zelf is nu klikbaar.
-        if (event.button() == 1 && this.isMouseOver(event.x(), event.y())) {
+        // Right-click selects the friend entry for inspection
+        if (event.button() == 1) {
             BetterFriendsList.selectedFriendId = this.betterfriendslist$playerData.id();
 
             Minecraft.getInstance().getSoundManager().play(
@@ -171,6 +170,7 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
         boolean isSelected = this.betterfriendslist$playerData.id()
                 .equals(BetterFriendsList.selectedFriendId);
 
+        // Highlight selected or hovered friend entry
         if (isSelected) {
             graphics.fill(
                     this.getX(),
@@ -189,19 +189,11 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
             );
         }
 
-        String nickname = FriendNicknames.getNickname(
-                this.betterfriendslist$playerData.id()
-        );
-
+        String nickname = FriendNicknames.getNickname(this.betterfriendslist$playerData.id());
         if (nickname != null && !nickname.isBlank()) {
             if (this.isHoveredOrFocused() || isSelected) {
                 this.nameWidget.setMessage(
-                        Component.literal(
-                                nickname
-                                        + " ("
-                                        + this.betterfriendslist$playerData.name()
-                                        + ")"
-                        )
+                        Component.literal(nickname + " (" + this.betterfriendslist$playerData.name() + ")")
                 );
             } else {
                 this.nameWidget.setMessage(Component.literal(nickname));
@@ -223,25 +215,14 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
         }
 
         int center = this.getY() + (this.getHeight() - 20) / 2;
-
         int favoriteX = this.getX() + this.getWidth() - 42;
         int nicknameX = this.getX() + this.getWidth() - 64;
 
         this.betterfriendslist$favoriteButton.setPosition(favoriteX, center);
-        this.betterfriendslist$favoriteButton.extractRenderState(
-                graphics,
-                mouseX,
-                mouseY,
-                a
-        );
+        this.betterfriendslist$favoriteButton.extractRenderState(graphics, mouseX, mouseY, a);
 
         this.betterfriendslist$nicknameButton.setPosition(nicknameX, center);
-        this.betterfriendslist$nicknameButton.extractRenderState(
-                graphics,
-                mouseX,
-                mouseY,
-                a
-        );
+        this.betterfriendslist$nicknameButton.extractRenderState(graphics, mouseX, mouseY, a);
     }
 
     @ModifyArgs(
@@ -253,8 +234,7 @@ public abstract class FriendsItemMixin extends AbstractContainerWidget {
     )
     private void betterfriendslist$moveFaceRight(Args args) {
         int x = args.get(0);
-
-        // Shift the skin/player head 2 pixels to the right.
+        // Shift player avatar 2 pixels rightward to improve alignment
         args.set(0, x + 2);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Bedre venneliste",
+  "modmenu.descriptionTranslation.betterfriendslist": "Forbedrer vennelisten med kallenavn, festing av favoritter og et 3D-forhåndsvisningspanel for spillerskin.",
+  "betterfriendslist.screen.nickname.title": "Angi vennens kallenavn",
+  "betterfriendslist.screen.nickname.input_hint": "Kallenavn",
+  "betterfriendslist.tooltip.toggle_favorite": "Veksle favoritt",
+  "betterfriendslist.tooltip.set_nickname": "Angi kallenavn"
+}

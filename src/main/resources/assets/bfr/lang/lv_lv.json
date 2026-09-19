@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Labāks draugu saraksts",
+  "modmenu.descriptionTranslation.betterfriendslist": "Uzlabo draugu izvēlni ar segvārdiem, favorītu piespraušanu un 3D spēlētāja izskata priekšskatījuma paneli.",
+  "betterfriendslist.screen.nickname.title": "Iestatīt drauga segvārdu",
+  "betterfriendslist.screen.nickname.input_hint": "Segvārds",
+  "betterfriendslist.tooltip.toggle_favorite": "Pārslēgt izlasi",
+  "betterfriendslist.tooltip.set_nickname": "Iestatīt segvārdu"
+}

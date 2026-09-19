@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "善友錄",
+  "modmenu.descriptionTranslation.betterfriendslist": "修飾知己名錄，可賜雅號、置頂摯友，並設立體皮囊之預覽。",
+  "betterfriendslist.screen.nickname.title": "賜友雅號",
+  "betterfriendslist.screen.nickname.input_hint": "雅號",
+  "betterfriendslist.tooltip.toggle_favorite": "標為摯友",
+  "betterfriendslist.tooltip.set_nickname": "賜雅號"
+}

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "더 나은 친구 목록",
+  "modmenu.descriptionTranslation.betterfriendslist": "친구 목록을 개선하여 별명 설정, 즐겨찾기 고정, 그리고 우측 3D 플레이어 스킨 미리보기 패널을 추가합니다.",
+  "betterfriendslist.screen.nickname.title": "친구 별명 설정",
+  "betterfriendslist.screen.nickname.input_hint": "별명",
+  "betterfriendslist.tooltip.toggle_favorite": "즐겨찾기 전환",
+  "betterfriendslist.tooltip.set_nickname": "별명 설정"
+}

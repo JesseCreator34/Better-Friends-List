@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Bättre vänlista",
+  "modmenu.descriptionTranslation.betterfriendslist": "Förbättrar vänlistan med smeknamn, fästa favoriter och en panel för 3D-förhandsgranskning av spelarutseende.",
+  "betterfriendslist.screen.nickname.title": "Ange väns smeknamn",
+  "betterfriendslist.screen.nickname.input_hint": "Smeknamn",
+  "betterfriendslist.tooltip.toggle_favorite": "Växla favorit",
+  "betterfriendslist.tooltip.set_nickname": "Ange smeknamn"
+}

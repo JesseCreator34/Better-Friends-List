@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Боља листа пријатеља",
+  "modmenu.descriptionTranslation.betterfriendslist": "Побољшава мени пријатеља надимцима, качењем омиљених и 3D панелом за преглед изгледа играча.",
+  "betterfriendslist.screen.nickname.title": "Постави надимак пријатеља",
+  "betterfriendslist.screen.nickname.input_hint": "Надимак",
+  "betterfriendslist.tooltip.toggle_favorite": "Означи као омиљено",
+  "betterfriendslist.tooltip.set_nickname": "Постави надимак"
+}

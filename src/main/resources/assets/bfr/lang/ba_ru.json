@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Яҡшыраҡ дуҫтар исемлеге",
+  "modmenu.descriptionTranslation.betterfriendslist": "Дуҫтар менюһын ҡушаматтар, һайланғандарҙы ҡаҙаҡлау һәм 3D уйынсы кыяфәтен ҡарау панели менән яҡшырта.",
+  "betterfriendslist.screen.nickname.title": "Дуҫтың ҡушаматын билдәләү",
+  "betterfriendslist.screen.nickname.input_hint": "Ҡушамат",
+  "betterfriendslist.tooltip.toggle_favorite": "Һайланғанды күсереү",
+  "betterfriendslist.tooltip.set_nickname": "Ҡушамат ҡуйыу"
+}

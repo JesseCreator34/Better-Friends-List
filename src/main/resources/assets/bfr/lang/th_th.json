@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "รายชื่อเพื่อนที่ดียิ่งขึ้น",
+  "modmenu.descriptionTranslation.betterfriendslist": "ปรับปรุงหน้ารายชื่อเพื่อนด้วยการตั้งชื่อเล่น ปักหมุดเพื่อนคนโปรด และแผงดูตัวอย่างสกินผู้เล่นแบบ 3D",
+  "betterfriendslist.screen.nickname.title": "ตั้งชื่อเล่นเพื่อน",
+  "betterfriendslist.screen.nickname.input_hint": "ชื่อเล่น",
+  "betterfriendslist.tooltip.toggle_favorite": "สลับรายการโปรด",
+  "betterfriendslist.tooltip.set_nickname": "ตั้งชื่อเล่น"
+}

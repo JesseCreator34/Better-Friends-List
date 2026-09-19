@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "Lista më e mirë e miqve",
+  "modmenu.descriptionTranslation.betterfriendslist": "Përmirëson menynë e miqve me nofka, fiksimin e të preferuarve dhe një panel shikimi paraprak 3D të pamjes së lojtarit.",
+  "betterfriendslist.screen.nickname.title": "Vendos nofkën e mikut",
+  "betterfriendslist.screen.nickname.input_hint": "Nofka",
+  "betterfriendslist.tooltip.toggle_favorite": "Ndrysho të preferuarin",
+  "betterfriendslist.tooltip.set_nickname": "Vendos nofkën"
+}

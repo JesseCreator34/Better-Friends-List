@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "बेहतर मित्र सूची",
+  "modmenu.descriptionTranslation.betterfriendslist": "उपनाम, पसंदीदा मित्रों को पिन करने और 3D प्लेयर स्किन पूर्वावलोकन पैनल के साथ मित्र मेनू को बेहतर बनाता है।",
+  "betterfriendslist.screen.nickname.title": "मित्र का उपनाम सेट करें",
+  "betterfriendslist.screen.nickname.input_hint": "उपनाम",
+  "betterfriendslist.tooltip.toggle_favorite": "पसंदीदा टॉगल करें",
+  "betterfriendslist.tooltip.set_nickname": "उपनाम सेट करें"
+}

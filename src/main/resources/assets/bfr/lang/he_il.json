@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.betterfriendslist": "רשימת חברים משופרת",
+  "modmenu.descriptionTranslation.betterfriendslist": "משפר את ממשק החברים עם כינויים, הצמדת מועדפים וחלונית תצוגה מקדימה תלת-ממדית של סקין השחקן.",
+  "betterfriendslist.screen.nickname.title": "הגדרת כינוי לחבר",
+  "betterfriendslist.screen.nickname.input_hint": "כינוי",
+  "betterfriendslist.tooltip.toggle_favorite": "החלף מועדף",
+  "betterfriendslist.tooltip.set_nickname": "הגדרת כינוי"
+}
