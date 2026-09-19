@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Liosta Charaidean Nas Fheàrr",
-  "modmenu.descriptionTranslation.betterfriendslist": "A' leasachadh clàr-taice nan caraidean le far-ainmean, a' prìneadh nan roghainnean agus pannal ro-shealladh 3D air craiceann a' chluicheadair.",
+  "modmenu.nameTranslation.bfr": "Liosta Charaidean Nas Fheàrr",
+  "modmenu.descriptionTranslation.bfr": "A' leasachadh clàr-taice nan caraidean le far-ainmean, a' prìneadh nan roghainnean agus pannal ro-shealladh 3D air craiceann a' chluicheadair.",
   "betterfriendslist.screen.nickname.title": "Suidhich Far-ainm Caraid",
   "betterfriendslist.screen.nickname.input_hint": "Far-ainm",
   "betterfriendslist.tooltip.toggle_favorite": "Toglaich Roghainn",

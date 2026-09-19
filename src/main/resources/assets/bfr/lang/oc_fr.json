@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Melhora lista d'amics",
-  "modmenu.descriptionTranslation.betterfriendslist": "Melhora lo menú d'amics amb escaisnoms, l'estacament dels favorits e un panèl de previsualizacion 3D de l'aspècte del jogaire.",
+  "modmenu.nameTranslation.bfr": "Melhora lista d'amics",
+  "modmenu.descriptionTranslation.bfr": "Melhora lo menú d'amics amb escaisnoms, l'estacament dels favorits e un panèl de previsualizacion 3D de l'aspècte del jogaire.",
   "betterfriendslist.screen.nickname.title": "Definir l'escaisnom de l'amic",
   "betterfriendslist.screen.nickname.input_hint": "Escaisnom",
   "betterfriendslist.tooltip.toggle_favorite": "Bascular en favorit",

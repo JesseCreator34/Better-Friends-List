@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "ベター・フレンズ・リスト",
-  "modmenu.descriptionTranslation.betterfriendslist": "フレンドリストを強化し、ニックネームの設定、お気に入りのピン留め、右側の3Dプレイヤースキンプレビュー機能を追加します。",
+  "modmenu.nameTranslation.bfr": "ベター・フレンズ・リスト",
+  "modmenu.descriptionTranslation.bfr": "フレンドリストを強化し、ニックネームの設定、お気に入りのピン留め、右側の3Dプレイヤースキンプレビュー機能を追加します。",
   "betterfriendslist.screen.nickname.title": "フレンドのニックネームを設定",
   "betterfriendslist.screen.nickname.input_hint": "ニックネーム",
   "betterfriendslist.tooltip.toggle_favorite": "お気に入りを切り替え",

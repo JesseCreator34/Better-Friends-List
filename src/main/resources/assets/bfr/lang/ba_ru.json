@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Яҡшыраҡ дуҫтар исемлеге",
-  "modmenu.descriptionTranslation.betterfriendslist": "Дуҫтар менюһын ҡушаматтар, һайланғандарҙы ҡаҙаҡлау һәм 3D уйынсы кыяфәтен ҡарау панели менән яҡшырта.",
+  "modmenu.nameTranslation.bfr": "Яҡшыраҡ дуҫтар исемлеге",
+  "modmenu.descriptionTranslation.bfr": "Дуҫтар менюһын ҡушаматтар, һайланғандарҙы ҡаҙаҡлау һәм 3D уйынсы кыяфәтен ҡарау панели менән яҡшырта.",
   "betterfriendslist.screen.nickname.title": "Дуҫтың ҡушаматын билдәләү",
   "betterfriendslist.screen.nickname.input_hint": "Ҡушамат",
   "betterfriendslist.tooltip.toggle_favorite": "Һайланғанды күсереү",

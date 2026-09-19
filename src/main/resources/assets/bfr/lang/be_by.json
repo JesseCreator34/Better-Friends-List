@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Лепшы спіс сяброў",
-  "modmenu.descriptionTranslation.betterfriendslist": "Паляпшае спіс сяброў мянушкамі, замацаваннем абраных і 3D-панэллю папярэдняга прагляду выгляду гульца.",
+  "modmenu.nameTranslation.bfr": "Лепшы спіс сяброў",
+  "modmenu.descriptionTranslation.bfr": "Паляпшае спіс сяброў мянушкамі, замацаваннем абраных і 3D-панэллю папярэдняга прагляду выгляду гульца.",
   "betterfriendslist.screen.nickname.title": "Задаць мянушку сябра",
   "betterfriendslist.screen.nickname.input_hint": "Мянушка",
   "betterfriendslist.tooltip.toggle_favorite": "Пераключыць абранае",

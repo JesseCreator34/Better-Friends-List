@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Jobb barátlista",
-  "modmenu.descriptionTranslation.betterfriendslist": "Fejleszti a barátlistát becenevekkel, kedvencek rögzítésével és egy 3D-s kinézet-előnézeti panellel.",
+  "modmenu.nameTranslation.bfr": "Jobb barátlista",
+  "modmenu.descriptionTranslation.bfr": "Fejleszti a barátlistát becenevekkel, kedvencek rögzítésével és egy 3D-s kinézet-előnézeti panellel.",
   "betterfriendslist.screen.nickname.title": "Barát becenevének beállítása",
   "betterfriendslist.screen.nickname.input_hint": "Becenév",
   "betterfriendslist.tooltip.toggle_favorite": "Kedvenc ki-/bekapcsolása",

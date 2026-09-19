@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Καλύτερη Λίστα Φίλων",
-  "modmenu.descriptionTranslation.betterfriendslist": "Βελτιώνει τη λίστα φίλων προσθέτοντας ψευδώνυμα, καρφίτσωμα αγαπημένων και προεπισκόπηση 3D εμφάνισης παίκτη.",
+  "modmenu.nameTranslation.bfr": "Καλύτερη Λίστα Φίλων",
+  "modmenu.descriptionTranslation.bfr": "Βελτιώνει τη λίστα φίλων προσθέτοντας ψευδώνυμα, καρφίτσωμα αγαπημένων και προεπισκόπηση 3D εμφάνισης παίκτη.",
   "betterfriendslist.screen.nickname.title": "Ορισμός ψευδωνύμου φίλου",
   "betterfriendslist.screen.nickname.input_hint": "Ψευδώνυμο",
   "betterfriendslist.tooltip.toggle_favorite": "Εναλλαγή αγαπημένου",

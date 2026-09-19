@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Mèjo Lista de Amisi",
-  "modmenu.descriptionTranslation.betterfriendslist": "Mèjora el menu dei amisi co soranomi, el fisajo dei preferii e un paneło de anteprima 3D de ła pełe del xugadore.",
+  "modmenu.nameTranslation.bfr": "Mèjo Lista de Amisi",
+  "modmenu.descriptionTranslation.bfr": "Mèjora el menu dei amisi co soranomi, el fisajo dei preferii e un paneło de anteprima 3D de ła pełe del xugadore.",
   "betterfriendslist.screen.nickname.title": "Inposta el Soranome de l'Amigo",
   "betterfriendslist.screen.nickname.input_hint": "Soranome",
   "betterfriendslist.tooltip.toggle_favorite": "Canbia Preferìo",

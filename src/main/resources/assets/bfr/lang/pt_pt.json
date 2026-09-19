@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Melhor Lista de Amigos",
-  "modmenu.descriptionTranslation.betterfriendslist": "Melhora o menu de amigos com alcunhas, fixação de favoritos e um painel de pré-visualização 3D da skin do jogador.",
+  "modmenu.nameTranslation.bfr": "Melhor Lista de Amigos",
+  "modmenu.descriptionTranslation.bfr": "Melhora o menu de amigos com alcunhas, fixação de favoritos e um painel de pré-visualização 3D da skin do jogador.",
   "betterfriendslist.screen.nickname.title": "Definir Alcunha do Amigo",
   "betterfriendslist.screen.nickname.input_hint": "Alcunha",
   "betterfriendslist.tooltip.toggle_favorite": "Alternar Favorito",

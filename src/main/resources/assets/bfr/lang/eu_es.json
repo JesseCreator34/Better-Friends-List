@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Lagun-zerrenda Hobea",
-  "modmenu.descriptionTranslation.betterfriendslist": "Lagunen menua hobetzen du ezizenen bidez, gogokoak finkatuz eta 3D jokalari-azalaren aurrebista-panel batekin.",
+  "modmenu.nameTranslation.bfr": "Lagun-zerrenda Hobea",
+  "modmenu.descriptionTranslation.bfr": "Lagunen menua hobetzen du ezizenen bidez, gogokoak finkatuz eta 3D jokalari-azalaren aurrebista-panel batekin.",
   "betterfriendslist.screen.nickname.title": "Ezarri lagunaren ezizena",
   "betterfriendslist.screen.nickname.input_hint": "Ezizena",
   "betterfriendslist.tooltip.toggle_favorite": "Trukatu gogokoa",

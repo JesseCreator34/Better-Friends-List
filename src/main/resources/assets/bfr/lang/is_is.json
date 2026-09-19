@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Betri vinalisti",
-  "modmenu.descriptionTranslation.betterfriendslist": "Bætir vinavalmyndina með gælunöfnum, festingu eftirlætis og 3D forskoðun á útliti leikmanns.",
+  "modmenu.nameTranslation.bfr": "Betri vinalisti",
+  "modmenu.descriptionTranslation.bfr": "Bætir vinavalmyndina með gælunöfnum, festingu eftirlætis og 3D forskoðun á útliti leikmanns.",
   "betterfriendslist.screen.nickname.title": "Stilla gælunafn vinar",
   "betterfriendslist.screen.nickname.input_hint": "Gælunafn",
   "betterfriendslist.tooltip.toggle_favorite": "Breyta eftirlæti",

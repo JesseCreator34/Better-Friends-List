@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Listă de prieteni mai bună",
-  "modmenu.descriptionTranslation.betterfriendslist": "Îmbunătățește meniul de prieteni cu porecle, fixarea favoriților și un panou de previzualizare 3D a skinului jucătorului.",
+  "modmenu.nameTranslation.bfr": "Listă de prieteni mai bună",
+  "modmenu.descriptionTranslation.bfr": "Îmbunătățește meniul de prieteni cu porecle, fixarea favoriților și un panou de previzualizare 3D a skinului jucătorului.",
   "betterfriendslist.screen.nickname.title": "Setează porecla prietenului",
   "betterfriendslist.screen.nickname.input_hint": "Poreclă",
   "betterfriendslist.tooltip.toggle_favorite": "Comută la favorite",

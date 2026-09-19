@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Daftar Teman yang Lebih Baik",
-  "modmenu.descriptionTranslation.betterfriendslist": "Meningkatkan menu teman dengan nama panggilan, menyematkan favorit, dan panel pratinjau skin pemain 3D.",
+  "modmenu.nameTranslation.bfr": "Daftar Teman yang Lebih Baik",
+  "modmenu.descriptionTranslation.bfr": "Meningkatkan menu teman dengan nama panggilan, menyematkan favorit, dan panel pratinjau skin pemain 3D.",
   "betterfriendslist.screen.nickname.title": "Atur Nama Panggilan Teman",
   "betterfriendslist.screen.nickname.input_hint": "Nama Panggilan",
   "betterfriendslist.tooltip.toggle_favorite": "Alihkan Favorit",

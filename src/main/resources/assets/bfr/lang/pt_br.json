@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Melhor Lista de Amigos",
-  "modmenu.descriptionTranslation.betterfriendslist": "Aprimora a interface da lista de amigos com apelidos personalizados, fixação de favoritos e um painel de pré-visualização 3D da skin.",
+  "modmenu.nameTranslation.bfr": "Melhor Lista de Amigos",
+  "modmenu.descriptionTranslation.bfr": "Aprimora a interface da lista de amigos com apelidos personalizados, fixação de favoritos e um painel de pré-visualização 3D da skin.",
   "betterfriendslist.screen.nickname.title": "Definir Apelido do Amigo",
   "betterfriendslist.screen.nickname.input_hint": "Apelido",
   "betterfriendslist.tooltip.toggle_favorite": "Alternar Favorito",

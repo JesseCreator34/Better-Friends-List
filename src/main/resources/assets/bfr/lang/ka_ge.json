@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "უკეთესი მეგობრების სია",
-  "modmenu.descriptionTranslation.betterfriendslist": "აუმჯობესებს მეგობრების მენიუს ზედმეტსახელებით, რჩეულების დამაგრებით და მოთამაშის სკინის 3D გადახედვის პანელით.",
+  "modmenu.nameTranslation.bfr": "უკეთესი მეგობრების სია",
+  "modmenu.descriptionTranslation.bfr": "აუმჯობესებს მეგობრების მენიუს ზედმეტსახელებით, რჩეულების დამაგრებით და მოთამაშის სკინის 3D გადახედვის პანელით.",
   "betterfriendslist.screen.nickname.title": "მეგობრის ზედმეტსახელის დაყენება",
   "betterfriendslist.screen.nickname.input_hint": "ზედმეტსახელი",
   "betterfriendslist.tooltip.toggle_favorite": "რჩეულის გადართვა",

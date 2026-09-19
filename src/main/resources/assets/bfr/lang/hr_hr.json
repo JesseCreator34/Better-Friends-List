@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Bolji popis prijatelja",
-  "modmenu.descriptionTranslation.betterfriendslist": "Poboljšava sučelje prijatelja s nadimcima, prikvačivanjem favorita i 3D pločom za pretpregled izgleda igrača.",
+  "modmenu.nameTranslation.bfr": "Bolji popis prijatelja",
+  "modmenu.descriptionTranslation.bfr": "Poboljšava sučelje prijatelja s nadimcima, prikvačivanjem favorita i 3D pločom za pretpregled izgleda igrača.",
   "betterfriendslist.screen.nickname.title": "Postavi nadimak prijatelja",
   "betterfriendslist.screen.nickname.input_hint": "Nadimak",
   "betterfriendslist.tooltip.toggle_favorite": "Uključi/isključi favorite",

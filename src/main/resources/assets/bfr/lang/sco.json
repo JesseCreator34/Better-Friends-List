@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Better Freends Leet",
-  "modmenu.descriptionTranslation.betterfriendslist": "Bettirs the freends menu wi eik-names, preenin favourites, an a 3D preview panelt o the player's skin.",
+  "modmenu.nameTranslation.bfr": "Better Freends Leet",
+  "modmenu.descriptionTranslation.bfr": "Bettirs the freends menu wi eik-names, preenin favourites, an a 3D preview panelt o the player's skin.",
   "betterfriendslist.screen.nickname.title": "Set Freend's Eik-name",
   "betterfriendslist.screen.nickname.input_hint": "Eik-name",
   "betterfriendslist.tooltip.toggle_favorite": "Toggl Favourite",

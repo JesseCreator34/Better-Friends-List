@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Lepší seznam přátel",
-  "modmenu.descriptionTranslation.betterfriendslist": "Vylepšuje seznam přátel přidáním přezdívek, připnutím oblíbených a 3D náhledem skinu hráče.",
+  "modmenu.nameTranslation.bfr": "Lepší seznam přátel",
+  "modmenu.descriptionTranslation.bfr": "Vylepšuje seznam přátel přidáním přezdívek, připnutím oblíbených a 3D náhledem skinu hráče.",
   "betterfriendslist.screen.nickname.title": "Nastavit přezdívku přítele",
   "betterfriendslist.screen.nickname.input_hint": "Přezdívka",
   "betterfriendslist.tooltip.toggle_favorite": "Přepnout oblíbené",

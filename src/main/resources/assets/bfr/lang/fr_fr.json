@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Meilleure liste d'amis",
-  "modmenu.descriptionTranslation.betterfriendslist": "Améliore la liste d'amis avec des surnoms, l'épinglage des favoris et un panneau de prévisualisation du skin 3D.",
+  "modmenu.nameTranslation.bfr": "Meilleure liste d'amis",
+  "modmenu.descriptionTranslation.bfr": "Améliore la liste d'amis avec des surnoms, l'épinglage des favoris et un panneau de prévisualisation du skin 3D.",
   "betterfriendslist.screen.nickname.title": "Définir le surnom",
   "betterfriendslist.screen.nickname.input_hint": "Surnom",
   "betterfriendslist.tooltip.toggle_favorite": "Basculer en favori",

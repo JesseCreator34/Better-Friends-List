@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Bezzer Vriuntliste",
-  "modmenu.descriptionTranslation.betterfriendslist": "Bessert daz vriuntmenü mit bīnamen, vasteheften der lieben vriunde und 3D schowunge des spilers vel.",
+  "modmenu.nameTranslation.bfr": "Bezzer Vriuntliste",
+  "modmenu.descriptionTranslation.bfr": "Bessert daz vriuntmenü mit bīnamen, vasteheften der lieben vriunde und 3D schowunge des spilers vel.",
   "betterfriendslist.screen.nickname.title": "Vriuntes Bīnamen Setzen",
   "betterfriendslist.screen.nickname.input_hint": "Bīname",
   "betterfriendslist.tooltip.toggle_favorite": "Lieben Vriunt Wechseln",

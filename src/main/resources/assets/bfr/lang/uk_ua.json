@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Покращений список друзів",
-  "modmenu.descriptionTranslation.betterfriendslist": "Покращує список друзів, додаючи можливість встановлювати псевдоніми, закріплювати улюблених та 3D-панель попереднього перегляду скіна.",
+  "modmenu.nameTranslation.bfr": "Покращений список друзів",
+  "modmenu.descriptionTranslation.bfr": "Покращує список друзів, додаючи можливість встановлювати псевдоніми, закріплювати улюблених та 3D-панель попереднього перегляду скіна.",
   "betterfriendslist.screen.nickname.title": "Встановити псевдонім друга",
   "betterfriendslist.screen.nickname.input_hint": "Псевдонім",
   "betterfriendslist.tooltip.toggle_favorite": "Додати до улюблених",

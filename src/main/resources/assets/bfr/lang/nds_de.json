@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Bätere Fründlist",
-  "modmenu.descriptionTranslation.betterfriendslist": "Verbätert dat Fründ-Menü mit Ökelnaams, dat Fastmaken vun Favoriten un een 3D-Vörschau op de Speler-Utsehn.",
+  "modmenu.nameTranslation.bfr": "Bätere Fründlist",
+  "modmenu.descriptionTranslation.bfr": "Verbätert dat Fründ-Menü mit Ökelnaams, dat Fastmaken vun Favoriten un een 3D-Vörschau op de Speler-Utsehn.",
   "betterfriendslist.screen.nickname.title": "Ökelnaam för Fründ fastleggen",
   "betterfriendslist.screen.nickname.input_hint": "Ökelnaam",
   "betterfriendslist.tooltip.toggle_favorite": "Favorit ümschalten",

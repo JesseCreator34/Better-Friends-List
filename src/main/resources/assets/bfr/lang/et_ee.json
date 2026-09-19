@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Parem sõbranimestik",
-  "modmenu.descriptionTranslation.betterfriendslist": "Täiustab sõprade menüüd hüüdnimede, lemmikute kinnitamise ja 3D mängijanaha eelvaate paneeliga.",
+  "modmenu.nameTranslation.bfr": "Parem sõbranimestik",
+  "modmenu.descriptionTranslation.bfr": "Täiustab sõprade menüüd hüüdnimede, lemmikute kinnitamise ja 3D mängijanaha eelvaate paneeliga.",
   "betterfriendslist.screen.nickname.title": "Määra sõbrale hüüdnimi",
   "betterfriendslist.screen.nickname.input_hint": "Hüüdnimi",
   "betterfriendslist.tooltip.toggle_favorite": "Lülita lemmikut sisse/välja",

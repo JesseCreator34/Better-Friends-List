@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Яхшырак дуслар исемлеге",
-  "modmenu.descriptionTranslation.betterfriendslist": "Дуслар менюсын кушаматлар, яратканнарны беркетү һәм 3D уенчы скин карау панели белән яхшырта.",
+  "modmenu.nameTranslation.bfr": "Яхшырак дуслар исемлеге",
+  "modmenu.descriptionTranslation.bfr": "Дуслар менюсын кушаматлар, яратканнарны беркетү һәм 3D уенчы скин карау панели белән яхшырта.",
   "betterfriendslist.screen.nickname.title": "Дусның кушаматын кую",
   "betterfriendslist.screen.nickname.input_hint": "Кушамат",
   "betterfriendslist.tooltip.toggle_favorite": "Сайланганны күчерү",

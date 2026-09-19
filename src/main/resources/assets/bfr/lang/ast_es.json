@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Meyor llista d'amigos",
-  "modmenu.descriptionTranslation.betterfriendslist": "Meyora'l menú d'amigos con nomatos, afitáu de favoritos y un panel de vista previa 3D del aspeutu del xugador.",
+  "modmenu.nameTranslation.bfr": "Meyor llista d'amigos",
+  "modmenu.descriptionTranslation.bfr": "Meyora'l menú d'amigos con nomatos, afitáu de favoritos y un panel de vista previa 3D del aspeutu del xugador.",
   "betterfriendslist.screen.nickname.title": "Poner el nomatu del amigu",
   "betterfriendslist.screen.nickname.input_hint": "Nomatu",
   "betterfriendslist.tooltip.toggle_favorite": "Alternar favoritu",

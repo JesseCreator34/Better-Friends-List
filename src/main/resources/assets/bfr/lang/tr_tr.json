@@ -1,6 +1,6 @@
 {
-  "modmenu.nameTranslation.betterfriendslist": "Daha İyi Arkadaş Listesi",
-  "modmenu.descriptionTranslation.betterfriendslist": "Arkadaş menüsünü lakap ayarlama, favorileri sabitleme ve 3B oyuncu dış görünüşü önizleme paneliyle geliştirir.",
+  "modmenu.nameTranslation.bfr": "Daha İyi Arkadaş Listesi",
+  "modmenu.descriptionTranslation.bfr": "Arkadaş menüsünü lakap ayarlama, favorileri sabitleme ve 3B oyuncu dış görünüşü önizleme paneliyle geliştirir.",
   "betterfriendslist.screen.nickname.title": "Arkadaş Lakabı Ayarla",
   "betterfriendslist.screen.nickname.input_hint": "Lakap",
   "betterfriendslist.tooltip.toggle_favorite": "Favoriyi Değiştir",
