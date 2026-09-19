@@ -22,15 +22,22 @@
     },
     "license": "MIT",
     "icon": "assets/bfr/icon.png",
-    "environment": "*",
+    "environment": "client",
     "entrypoints": {
-        "main": [
+        "client": [
             "com.smm.BetterFriendsList"
         ]
     },
     "mixins": [
         "bfr.mixins.json"
     ],
+    "custom": {
+        "modmenu": {
+            "badges": [
+                "client"
+            ]
+        }
+    },
     "depends": {
         "fabricloader": ">=0.19.3",
         "minecraft": ">=26.2",
