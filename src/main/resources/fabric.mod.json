@@ -8,13 +8,13 @@
         "Astyll"
     ],
     "contributors": [
-    {
-        "name": "StarsShine11904",
-        "contact": {
-            "sources": "https://github.com/StarsShine11904"
+        {
+            "name": "StarsShine11904",
+            "contact": {
+                "sources": "https://github.com/StarsShine11904"
+            }
         }
-    }
-],
+    ],
     "contact": {
         "homepage": "https://modrinth.com/project/rVhArZFx",
         "issues": "https://github.com/JesseCreator34/Better-Friends-List/issues",
@@ -33,7 +33,7 @@
     ],
     "depends": {
         "fabricloader": ">=0.19.3",
-        "minecraft": "~26.3",
+        "minecraft": ">=26.2",
         "java": ">=25",
         "fabric-api": "*"
     }
