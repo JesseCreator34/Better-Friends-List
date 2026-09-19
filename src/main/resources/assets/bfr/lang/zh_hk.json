@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "更好的朋友名單",
+  "modmenu.descriptionTranslation.bfr": "強化原版朋友名單介面，支援設定朋友暱稱、置頂喜愛朋友，以及直觀的右側 3D 玩家外觀預覽面板。",
+  "betterfriendslist.screen.nickname.title": "設定朋友暱稱",
+  "betterfriendslist.screen.nickname.input_hint": "暱稱",
+  "betterfriendslist.tooltip.toggle_favorite": "切換喜愛",
+  "betterfriendslist.tooltip.set_nickname": "設定暱稱"
+}

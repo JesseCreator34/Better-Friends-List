@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Mellor lista de amigos",
+  "modmenu.descriptionTranslation.bfr": "Mellora a interface de amigos con alcumes, fixación de favoritos e un panel de vista previa 3D do aspecto do xogador.",
+  "betterfriendslist.screen.nickname.title": "Definir o alcume do amigo",
+  "betterfriendslist.screen.nickname.input_hint": "Alcume",
+  "betterfriendslist.tooltip.toggle_favorite": "Alternar favorito",
+  "betterfriendslist.tooltip.set_nickname": "Definir alcume"
+}

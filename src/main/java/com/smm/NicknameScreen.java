@@ -15,7 +15,8 @@ public class NicknameScreen extends Screen {
     private EditBox editBox;
 
     public NicknameScreen(Screen lastScreen, UUID playerId, Runnable onSave) {
-        super(Component.literal("Set Friend Nickname"));
+        // Uses a translatable component for screen title localization
+        super(Component.translatable("betterfriendslist.screen.nickname.title"));
         this.lastScreen = lastScreen;
         this.playerId = playerId;
         this.onSave = onSave;
@@ -26,11 +27,18 @@ public class NicknameScreen extends Screen {
         int centerX = this.width / 2;
         int centerY = this.height / 2;
 
-        // Titel boven het tekstvak (Width: 200, perfectly centered)
+        // Title above the input field (width: 200, centered)
         this.addRenderableWidget(new StringWidget(centerX - 100, centerY - 40, 200, 20, this.title, this.font));
 
-        // Tekstvak voor de bijnaam (Width: 200, perfectly centered)
-        this.editBox = new EditBox(this.font, centerX - 100, centerY - 15, 200, 20, Component.literal("Nickname"));
+        // Text input field for the nickname with a translatable hint
+        this.editBox = new EditBox(
+                this.font,
+                centerX - 100,
+                centerY - 15,
+                200,
+                20,
+                Component.translatable("betterfriendslist.screen.nickname.input_hint")
+        );
         this.editBox.setMaxLength(24);
 
         String currentNickname = FriendNicknames.getNickname(this.playerId);
@@ -39,14 +47,14 @@ public class NicknameScreen extends Screen {
         }
         this.addRenderableWidget(this.editBox);
 
-        // "Klaar" knop (Starts exactly aligned with the left edge of the textbox)
+        // "Done" button aligned with the left edge of the input box
         this.addRenderableWidget(Button.builder(CommonComponents.GUI_DONE, button -> {
             FriendNicknames.setNickname(this.playerId, this.editBox.getValue());
             this.onSave.run();
             this.minecraft.gui.setScreen(this.lastScreen);
         }).bounds(centerX - 100, centerY + 15, 98, 20).build());
 
-        // "Annuleren" knop (Ends exactly aligned with the right edge of the textbox)
+        // "Cancel" button aligned with the right edge of the input box
         this.addRenderableWidget(Button.builder(CommonComponents.GUI_CANCEL, button -> {
             this.minecraft.gui.setScreen(this.lastScreen);
         }).bounds(centerX + 2, centerY + 15, 98, 20).build());

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Lepsza lista znajomych",
+  "modmenu.descriptionTranslation.bfr": "Ulepsza listę znajomych, dodając pseudonimy, przypinanie ulubionych oraz boczny podgląd skórki gracza w 3D.",
+  "betterfriendslist.screen.nickname.title": "Ustaw pseudonim znajomego",
+  "betterfriendslist.screen.nickname.input_hint": "Pseudonim",
+  "betterfriendslist.tooltip.toggle_favorite": "Przełącz ulubione",
+  "betterfriendslist.tooltip.set_nickname": "Ustaw pseudonim"
+}

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Bedre venneliste",
+  "modmenu.descriptionTranslation.bfr": "Forbedrer vennelisten med kælenavne, fastgørelse af favoritter og et 3D-forhåndsvisningspanel til spillerskin.",
+  "betterfriendslist.screen.nickname.title": "Angiv vens kælenavn",
+  "betterfriendslist.screen.nickname.input_hint": "Kælenavn",
+  "betterfriendslist.tooltip.toggle_favorite": "Slå favorit til/fra",
+  "betterfriendslist.tooltip.set_nickname": "Angiv kælenavn"
+}

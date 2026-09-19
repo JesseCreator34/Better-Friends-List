@@ -16,16 +16,15 @@ import java.util.UUID;
 public class SelectedFriendPanel {
 
     public void render(GuiGraphicsExtractor graphics, int x, int y, int w, int h, int mouseX, int mouseY) {
-
         UUID id = BetterFriendsList.selectedFriendId;
         if (id == null) return;
 
         Minecraft mc = Minecraft.getInstance();
 
+        // Draw panel background
         graphics.fill(x, y, x + w, y + h, 0x55000000);
 
         ResolvableProfile profile = ResolvableProfile.createUnresolved(id);
-
         PlayerSkinRenderCache cache = mc.playerSkinRenderCache();
         PlayerSkinRenderCache.RenderInfo info = cache.getOrDefault(profile);
 
@@ -45,7 +44,7 @@ public class SelectedFriendPanel {
                 .rotateX(-angleY * 0.5f)
                 .rotateY(-angleX * 0.5f);
 
-        // ✅ Eénmalig enableScissor
+        // Begin scissor clipping for both the PIP model and inside text
         graphics.enableScissor(x, y, x + w, y + h);
 
         GuiEntityRenderState state = new GuiEntityRenderState(
@@ -58,11 +57,10 @@ public class SelectedFriendPanel {
                 graphics.scissorStack.peek()
         );
 
-        // ✅ Geen GlStateManager hacks — PIP beheert zijn eigen depth buffer
+        // Submit PIP entity rendering state
         graphics.guiRenderState.addPicturesInPictureState(state);
 
-        graphics.disableScissor();
-
+        // Render player name text inside the scissor area to prevent overflow
         graphics.text(
                 mc.font,
                 Component.literal(info.gameProfile().name()),
@@ -70,5 +68,8 @@ public class SelectedFriendPanel {
                 y + 8,
                 0xFFFFFF
         );
+
+        // Properly disable scissor after all content within this panel has been extracted
+        graphics.disableScissor();
     }
 }

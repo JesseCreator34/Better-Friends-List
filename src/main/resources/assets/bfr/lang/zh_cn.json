@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "更好的好友列表",
+  "modmenu.descriptionTranslation.bfr": "强化原版好友列表界面，支持设置好友昵称、置顶特别关注好友，以及直观的右侧 3D 玩家皮肤预览面板。",
+  "betterfriendslist.screen.nickname.title": "设置好友昵称",
+  "betterfriendslist.screen.nickname.input_hint": "昵称",
+  "betterfriendslist.tooltip.toggle_favorite": "切换特别关注",
+  "betterfriendslist.tooltip.set_nickname": "设置昵称"
+}

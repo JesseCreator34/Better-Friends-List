@@ -14,7 +14,7 @@ import java.util.List;
 @Mixin(FriendsOverlayScreen.class)
 public class FriendsListMixin {
 
-    // Sorteert de hoofdlijst met vrienden
+    // Sorts the primary friends list by favorite status first, then by vanilla comparator
     @ModifyArg(
             method = "populateLists",
             at = @At(value = "INVOKE", target = "Ljava/util/List;sort(Ljava/util/Comparator;)V"),
@@ -23,33 +23,41 @@ public class FriendsListMixin {
     private Comparator<Object> betterfriendslist$pinFavorites(Comparator<Object> original) {
         return Comparator.comparingInt(
                 (Object entry) -> {
-                    // Gebruik de accessor interface (deze is in jouw package)
-                    var id = ((AbstractFriendsEntryAccessor) entry).getPlayerId();
-                    return FriendFavorites.isFavorite(id) ? 0 : 1;
+                    if (entry instanceof AbstractFriendsEntryAccessor accessor) {
+                        return FriendFavorites.isFavorite(accessor.getPlayerId()) ? 0 : 1;
+                    }
+                    return 1;
                 }
         ).thenComparing(original);
     }
 
-    // Sorteert de "Pending" tab
+    // Sorts the "Pending" tab incoming and outgoing lists with safety checks
     @ModifyArgs(
             method = "populateLists",
             at = @At(
                     value = "INVOKE",
-                    // De String-target werkt gewoon, ook zonder import
                     target = "Lnet/minecraft/client/gui/screens/friends/PendingTab;updateEntries(Ljava/util/List;Ljava/util/List;)V"
             )
     )
     private void betterfriendslist$sortPendingEntries(Args args) {
-        // Gebruik raw types (List) in plaats van List<IncomingEntry>
-        List incoming = args.get(0);
-        List outgoing = args.get(1);
+        List<?> incoming = args.get(0);
+        List<?> outgoing = args.get(1);
 
+        // Safe comparator checking if the entry actually implements the target accessor
         Comparator<Object> favoriteComparator = Comparator.comparingInt(
-                entry -> FriendFavorites.isFavorite(((AbstractFriendsEntryAccessor) entry).getPlayerId()) ? 0 : 1
+                entry -> {
+                    if (entry instanceof AbstractFriendsEntryAccessor accessor) {
+                        return FriendFavorites.isFavorite(accessor.getPlayerId()) ? 0 : 1;
+                    }
+                    return 1;
+                }
         );
 
-        // Dit werkt zolang de lijsten mutable zijn (wat ze zijn in populateLists)
-        incoming.sort(favoriteComparator);
-        outgoing.sort(favoriteComparator);
+        if (incoming != null) {
+            ((List<Object>) incoming).sort(favoriteComparator);
+        }
+        if (outgoing != null) {
+            ((List<Object>) outgoing).sort(favoriteComparator);
+        }
     }
 }

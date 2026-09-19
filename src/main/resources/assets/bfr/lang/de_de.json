@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Bessere Freundesliste",
+  "modmenu.descriptionTranslation.bfr": "Verbessert das Freunde-Menü mit Spitznamen, Favoriten-Anheftung und einer 3D-Spielervorschau.",
+  "betterfriendslist.screen.nickname.title": "Spitznamen festlegen",
+  "betterfriendslist.screen.nickname.input_hint": "Spitzname",
+  "betterfriendslist.tooltip.toggle_favorite": "Favorit umschalten",
+  "betterfriendslist.tooltip.set_nickname": "Spitznamen bearbeiten"
+}

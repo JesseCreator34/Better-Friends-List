@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Betere Vriendenlijst",
+  "modmenu.descriptionTranslation.bfr": "Verbetert het vriendenmenu met bijnamen, het vastpinnen van favorieten en een 3D-speler skin preview paneel.",
+  "betterfriendslist.screen.nickname.title": "Bijnaam van vriend instellen",
+  "betterfriendslist.screen.nickname.input_hint": "Bijnaam",
+  "betterfriendslist.tooltip.toggle_favorite": "Favoriet in-/uitschakelen",
+  "betterfriendslist.tooltip.set_nickname": "Bijnaam instellen"
+}

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Mejor lista de amigos",
+  "modmenu.descriptionTranslation.bfr": "Mejora la interfaz de amigos permitiendo fijar favoritos, poner apodos y ver una vista previa 3D del jugador.",
+  "betterfriendslist.screen.nickname.title": "Establecer apodo del amigo",
+  "betterfriendslist.screen.nickname.input_hint": "Apodo",
+  "betterfriendslist.tooltip.toggle_favorite": "Alternar favorito",
+  "betterfriendslist.tooltip.set_nickname": "Establecer apodo"
+}

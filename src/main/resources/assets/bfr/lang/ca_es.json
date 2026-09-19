@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Millor llista d'amics",
+  "modmenu.descriptionTranslation.bfr": "Millora la llista d'amics amb sobrenoms, fixació de preferits i un panell de previsualització de l'aspecte 3D.",
+  "betterfriendslist.screen.nickname.title": "Defineix el sobrenom de l'amic",
+  "betterfriendslist.screen.nickname.input_hint": "Sobrenom",
+  "betterfriendslist.tooltip.toggle_favorite": "Commuta preferit",
+  "betterfriendslist.tooltip.set_nickname": "Defineix el sobrenom"
+}

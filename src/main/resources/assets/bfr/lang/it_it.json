@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Migliore lista amici",
+  "modmenu.descriptionTranslation.bfr": "Migliora la lista amici aggiungendo soprannomi, l'aggiunta ai preferiti e un pannello laterale con l'anteprima 3D della skin.",
+  "betterfriendslist.screen.nickname.title": "Imposta soprannome amico",
+  "betterfriendslist.screen.nickname.input_hint": "Soprannome",
+  "betterfriendslist.tooltip.toggle_favorite": "Attiva/disattiva preferito",
+  "betterfriendslist.tooltip.set_nickname": "Imposta soprannome"
+}

@@ -1,0 +1,8 @@
+{
+  "modmenu.nameTranslation.bfr": "Улучшенный список друзей",
+  "modmenu.descriptionTranslation.bfr": "Улучшает меню друзей, добавляя никнеймы, закрепление избранных и 3D-панель предпросмотра скина игрока.",
+  "betterfriendslist.screen.nickname.title": "Установить никнейм друга",
+  "betterfriendslist.screen.nickname.input_hint": "Никнейм",
+  "betterfriendslist.tooltip.toggle_favorite": "В избранное",
+  "betterfriendslist.tooltip.set_nickname": "Задать никнейм"
+}
